@@ -4,13 +4,14 @@ import "./App.css";
 import HomePage from "./Pages/HomePage";
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} exact />
-      </Routes>
-    </Router>
-  );
+	console.log("test");
+	return (
+		<Router>
+			<Routes>
+				<Route path="/" element={<HomePage />} exact />
+			</Routes>
+		</Router>
+	);
 }
 
 export default App;
